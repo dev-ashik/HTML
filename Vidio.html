@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML vidio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="typeDiv">
+        <h3>23 <span style="color: gray;">Video</span></h3><hr>
+        
+        <video src="./audio & vidio/vidio.mp4"  width="320" height="240" controls>
+        </video>
+
+        <hr>
+
+        <div  class="button-vidio">
+            <form>
+                <video id="vidio1" src="./audio & vidio/vidio.mp4">
+                </video><br>
+                <input type="button" value="playVidio" onclick="playVidio()"/>
+                <input type="button" value="pauseVidio" onclick="pauseVidio()"/>
+                <input type="button" value="RewindVidio" onclick="rewindVidio()"/>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        var vidio;
+        function init() {
+            vidio = document.getElementById('vidio1');
+        }
+        function playVidio() {vidio.play();}
+        function pauseVidio() {vidio.pause();}
+        function rewindVidio() {vidio.currentTime = 0;}
+        window.onload = init;
+    </script>
+</body>
+</html>

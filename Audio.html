@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Audio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+       <!-- audio -->
+<script>
+    var audio;
+    function init() {
+        audio = document.getElementById('audio1');
+    }
+    function playAudio() {audio.play();}
+    function pauseAudio() {audio.pause();}
+    function rewindAudio() {audio.currentTime = 0;}
+    window.onload = init;
+
+
+    
+</script>
+
+    <div class="typeDiv">
+        <h3>22 <span style="color: gray;">audio</span></h3><hr>
+        
+        <p><audio src="./audio & vidio/tone.mp3" controls></audio> audio</p>
+
+        <br>
+        <br>
+
+        <!-- controled by button -->
+        <form>
+            <audio src="./audio & vidio/tone.mp3" id="audio1"></audio>
+            <input type="button" value="playAudio" onclick="playAudio()"/>
+            <input type="button" value="pauseAudio" onclick="pauseAudio()"/>
+            <input type="button" value="RewindAudio" onclick="rewindAudio()"/>
+        </form>
+         
+    </div>
+</body>
+</html>

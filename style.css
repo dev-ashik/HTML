@@ -1,0 +1,28 @@
+body {
+    margin: 50px 100px;
+}
+
+.typeDiv {
+    border: 2px solid #cce; 
+    padding: 20px; 
+    margin: 10px;
+}
+
+hr {
+    color: lightgray;
+}
+
+.button-vidio {
+    border: 2px solid green;
+    padding: 5px;
+    text-align: center;
+}
+
+.button-vidio input{
+    color: white;
+    background-color: tomato;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}

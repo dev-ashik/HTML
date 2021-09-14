@@ -1,0 +1,54 @@
+Learn from:
+1. Video Tutorial
+2. Tutorial site
+3. Blogs
+
+
+Useful Websites:
+1. https://unicode-table.com
+
+
+Tutorial sites:
+1. https://www.javatpoint.com/html-tutorial
+2. https://developer.mozilla.org/en-US/docs/Web/HTML
+3. https://www.w3schools.com/html
+4. https://www.w3schools.com/tags/default.asp
+5. https://www.tutorialspoint.com/html/index.htm
+6. https://www.geeksforgeeks.org/html5-introduction
+7. https://www.geeksforgeeks.org/tag/html5
+
+
+
+
+*******nate tag*********
+
+1.
+    <pre><\pre> tag for preformateing
+    <pre>
+        hello
+            world
+        <\pre>
+
+2. 
+    <i> italian  <\i>
+
+3.
+    <wbr/>
+
+4.
+    <rubby>
+    汉<rp>(</rp><rt>han</rt><rp>)</rp>
+    字<rp>(</rp><rt>zi</rt><rp>)</rp>
+    </rubby>
+
+5. 
+    Selection Lists 
+
+6.
+    output
+
+
+ 
+ *******note symble********
+1.
+    &shy;
